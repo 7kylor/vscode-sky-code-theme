@@ -1,0 +1,30 @@
+{
+  "name": "sky-code-palette",
+  "displayName": "Sky Code",
+  "description": "A custom black background theme with harmonious colors",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/7kylor/vscode-sky-code-theme"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Code",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sky-code-dark.json"
+      },
+      {
+        "label": "Sky Light Theme",
+        "uiTheme": "vs",
+        "path": "./themes/sky-code-light.json"
+      }
+    ]
+  }
+}
