@@ -16,12 +16,12 @@
   "contributes": {
     "themes": [
       {
-        "label": "Dark Code",
+        "label": "Sky Code Dark Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/sky-code-dark.json"
       },
       {
-        "label": "Sky Light Theme",
+        "label": "Sky Code Light Theme",
         "uiTheme": "vs",
         "path": "./themes/sky-code-light.json"
       }
